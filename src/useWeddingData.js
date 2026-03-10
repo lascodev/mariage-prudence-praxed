@@ -44,6 +44,8 @@ export const DEFAULT_DATA = {
   messages: [
     { id:"msg1", name:"La famille Nzamba", msg:"Après 16 ans d'amour, vous méritez ce bonheur ! 🙏💕", time:"10h00", approved:true },
   ],
+  rsvps: [],
+  photos: [],
 };
 
 // Hook principal — écoute les changements Firebase en temps réel
